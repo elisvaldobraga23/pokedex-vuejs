@@ -1,7 +1,7 @@
 <!-- HTML -->
 
 <template>
-  <nav class="navbar navbar-expand bg-body-tertiary">
+  <nav class="navbar navbar-expand">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -21,3 +21,32 @@
     </div>
   </nav>
 </template>
+
+
+<style scoped>
+
+
+  .navbar{
+
+    padding: 0;
+    
+  }
+
+  .container-fluid{
+
+    height: 70px;
+    background-color: #8f8f8f;
+
+  }
+
+  .navbar-nav{
+
+    margin: 0 auto;
+
+  }
+
+  .nav-link{
+    font-size: 1.05rem;
+  }
+
+</style>
